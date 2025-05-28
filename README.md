@@ -1,12 +1,12 @@
 
-# 🫀 Heart Disease Classification Using Deep Learning on ECG Signals
+# Heart Disease Classification Using Deep Learning on ECG Signals
 
-## 📚 Description
+## Description
 This project involves classifying ECG signals as **Normal** or **Arrhythmia** using deep learning techniques. The signals are transformed into **scalogram images** using Continuous Wavelet Transform (CWT), and a **VGG16 transfer learning model** is trained for classification.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Source:** 
   - [MIT-BIH Arrhythmia Database](https://www.physionet.org/content/mitdb/1.0.0/)
@@ -24,7 +24,7 @@ This project involves classifying ECG signals as **Normal** or **Arrhythmia** us
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 - **Model Type:** Transfer Learning using VGG16
 - **Input Size:** 128 × 128 × 3
@@ -43,7 +43,7 @@ This project involves classifying ECG signals as **Normal** or **Arrhythmia** us
 
 ---
 
-## 📈 Evaluation
+## Evaluation
 
 - **Accuracy on Test Set:** 100%
 - **Loss on Test Set:** 100%
@@ -51,7 +51,7 @@ This project involves classifying ECG signals as **Normal** or **Arrhythmia** us
 
 ---
 
-## 🧪 Prediction Pipeline
+## Prediction Pipeline
 
 User can input their own `.dat` and `.hea` ECG files.
 
